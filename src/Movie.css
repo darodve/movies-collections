@@ -1,0 +1,11 @@
+.card{
+    overflow: hidden;
+}
+
+.card .drv-title{
+    min-height: 80px;
+}
+
+.card .drv-title span{
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+:root{
+    --dark-primary-color: #455A64;
+    --default-primary-color: #607D8B;
+    --light-primary-color: #CFD8DC; 
+    --text-primary-color: #FFFFFF; 
+    --accent-color: #00BCD4; 
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575; 
+    --divider-color: #BDBDBD; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--light-primary-color);
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header nav.navbar{
+  min-height: 80px;
+  overflow: hidden;
+  background: var(--dark-primary-color);
+  color: var(--text-primary-color);
+}

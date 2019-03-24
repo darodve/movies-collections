@@ -1,0 +1,9 @@
+.wrapper-info{
+    background: #FFF;
+}
+
+.tagline-text{
+    font-size: .8rem;
+    color: var(--secondary-text-color);
+    font-style: italic;
+}
